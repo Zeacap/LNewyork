@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>NewYork Launcher ss1</title>
+<link rel="icon" href="Server_ProJect.png">
+<link rel="stylesheet" type="text/css" href="Style.css">
+<link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans" rel="stylesheet">
+</head>
+<body>
+<div class="Shape"> 
+    <div style="height: 80%;width: 60%;margin-left: 10%;margin-top: 10%;">
+        <img src="logo.png" height="40%">
+        <div class="ShapeStyle"></div>
+        <div style="margin-top:0%"><a style="font-size:30px;font-family: 'Montserrat', sans-serif;">Join Now ! !</a><br><br><a href="mtasa://147.50.240.214:22003" class="Button">Play</a><a href="https://discord.gg/9RHjYhNr" class="Button">Discord</a><a href="https://www.facebook.com/profile.php?id=100091278339206" class="Button">เพจ</a></div> ADMIN.ZE M4I MARK
+    </div>  
+</div>
+<div class="video-background">
+      <iframe class="videoContainer__video" height="100%" width="130%" src="Medusa ft.T!NE.mp4" title="Medusa ft.T!NE.mp4" frameborder="0"></iframe>
+ </div>
+ </body>
+    <script>window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'UA-73378277-10'); </script>
+    <audio id="leson" src="music/music.ogg" autoplay="true" hidden="true" loop="true">
+        <script>
+    
+
+    var play = false;
+    var myAudio = document.getElementById("leson");
+    
+    myAudio.volume = 0.1;
+    
+    
+    function onKeyDown(event) {
+            switch (event.keyCode) {
+                case 32: //SpaceBar                    
+                    if (play) {
+                        myAudio.pause();
+                        play = false;
+                    } else {
+                        myAudio.play();
+                        play = true;
+                    }
+                    break;
+            }
+      return false;
+    }
+    window.addEventListener("keydown", onKeyDown, false);
+    </script>
+</body>
+</html>
